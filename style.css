@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+.big {
+  background-color: rgb(255, 234, 0);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.small {
+  background-color: rgb(255, 82, 82);
+  height: 210px;
+  display: flex;
+  justify-content: center;
+}
+
+.smiley {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(241, 209, 27);
+  opacity: 0.9;
+  position: relative;
+}
+
+.eye1 {
+  top: 41px;
+  left: 42px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border-radius: 2px;
+  background-color: grey;
+  opacity: 0.7;
+}
+
+.eye2 {
+  top: 57px;
+  left: 42px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border-radius: 2px;
+  background-color: grey;
+  opacity: 0.7;
+}
+.mouth {
+  position: absolute;
+  top: 41px;
+  left: 27px;
+  width: 50px;
+  height: 20px;
+  border-radius: 50%;
+  border-top: 6px solid grey;
+  opacity: 0.7;
+  rotate: 90deg;
+}
+
+.triangle {
+  width: 200px;
+  border-top: 75px solid rgb(255, 234, 0);
+  border-right: 175px solid transparent;
+  border-left: 175px solid transparent;
+  box-sizing: border-box;
+}
+
+span {
+  text-align: center;
+  color: white;
+  font: 300;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
